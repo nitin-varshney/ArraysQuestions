@@ -50,7 +50,7 @@ public class Sort012{
 
         while(mid<=high){
             switch(arr[mid]){
-                case 0:{;
+                case 0:{
                     temp=arr[low];
                     arr[low]=arr[mid];
                     arr[mid]=temp;
